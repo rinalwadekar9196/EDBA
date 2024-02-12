@@ -90,6 +90,26 @@
     width: 80px;
 }
 
+.diceButton2{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    background: #d84329;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 4s ease;
+    width: 80px;
+}
+
 .diceButton:hover {
     background: linear-gradient(to right, #eb3349, #f45c43)
+}
+
+.diceButton2:hover {
+    background: linear-gradient(to right, #eb3349, #f45c43)
+}
+
+.hidden{
+    display: none;
 }
